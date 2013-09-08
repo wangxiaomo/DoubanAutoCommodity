@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "分享到豆瓣东西",
+  "description": "DoubanAutoCommodity 分享物品到豆瓣，在豆瓣发现生活. wxm4ever@gmail.com",
+  "version": "1.0",
+  "background": {
+    "scripts": ["common/helper.js", "app.js"]
+  },
+  "icons": {
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "notifications",
+    "storage"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/cart.png",
+    "default_title": "DoubanAutoCommodity"
+  },
+
+  "content_scripts": [{
+    "matches": ["http://www.douban.com/show/create"],
+    "run_at": "document_end",
+    "js": ["libs/jquery.min.js", "run.js"]
+  }]   
+}
