@@ -9,7 +9,7 @@
   },
   "icons": {
     "48": "icons/icon.png",
-    "128": "icons/icon.png"
+    "128": "icons/icon128.png"
   },
 
   "permissions": [
@@ -21,11 +21,5 @@
   "page_action": {
     "default_icon": "icons/cart.png",
     "default_title": "DoubanAutoCommodity"
-  },
-
-  "content_scripts": [{
-    "matches": ["http://www.douban.com/show/create"],
-    "run_at": "document_end",
-    "js": ["libs/jquery.min.js", "run.js"]
-  }]   
+  }
 }
