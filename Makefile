@@ -1,4 +1,4 @@
-MANIFESTS = app.js common icons libs manifest.json README.md run.js
+MANIFESTS = app.js common icons manifest.json README.md
 TARGET = commodityshare-chrome.zip 
 
 $(TARGET): $(MANIFESTS)
