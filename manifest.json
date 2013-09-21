@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "分享到豆瓣东西",
-  "description": "DoubanAutoCommodity 分享物品到豆瓣，在豆瓣发现生活. wxm4ever@gmail.com",
-  "version": "1.0.1",
+  "description": "分享你喜欢的商品到豆瓣东西",
+  "version": "1.0.2",
   "background": {
     "scripts": ["common/helper.js", "app.js"]
   },
