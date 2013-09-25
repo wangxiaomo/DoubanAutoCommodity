@@ -1,4 +1,4 @@
-var DOUBAN_COMMODITY_HOST = 'http://www.douban.com/show/create?url=';
+var DOUBAN_COMMODITY_HOST = 'http://dongxi.douban.com/show/create?url=';
 
 function checkForValidUrl(tabId, changeInfo, tab){
   var url = tab.url;
