@@ -3,7 +3,7 @@
 
   "name": "分享到豆瓣东西",
   "description": "分享你喜欢的商品到豆瓣东西",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "background": {
     "scripts": ["common/helper.js", "app.js"]
   },
